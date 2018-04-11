@@ -1,0 +1,103 @@
+/* COMMENTAIRE DE MON LESS */
+
+
+/* MES FLEX */ 
+
+.flex-base
+{
+    display: flex;
+    flex-direction: row;
+}
+.flex-column
+{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.bandeau-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 
+    {
+        font-size: 20px;
+        color:#C20312;
+        font-weight: bold;
+    }
+
+    ul 
+    {
+                list-style: none;
+    }
+
+    ul>li>a
+    {
+        text-transform: uppercase;
+        text-decoration:none;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    ul>li>a:not(.ac)
+    {
+        border-left: solid white 1px;
+    }
+
+   /* nav>ul>li:hover
+    { 
+        background-color: rgb(110, 142, 25,);
+        height: 30px%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+*/
+    nav>ul>li>a:hover
+    {
+        color: #f28926;
+    }
+}
+
+
+/* PRESENTATION */
+
+.presentation {
+    align-items: center;
+    .contenair-image
+    {
+        max-width: 500px;
+        max-height: 300px;
+    }
+
+    .text-presentation
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h3 
+    {
+        font-size: 30px;
+    }
+}
+
+
+/* AUTOMNE HIVER */
+
+.A-H
+{
+    .graine-AH
+    {
+    
+    }
+    .img-legume
+    {
+        height: 200px;
+        width: auto;
+
+    }
+}
+
+
