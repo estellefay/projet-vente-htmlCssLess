@@ -14,6 +14,10 @@
     flex-direction: column;
 }
 
+p{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
 /* Header */
 .bandeau-1
 {
@@ -22,9 +26,11 @@
     align-items: center;
     h1 
     {
-        font-size: 20px;
+        font-size: 50px;
         color:#C20312;
         font-weight: bold;
+        font-family: 'Gamja Flower', cursive;
+        margin: 0;
     }
 
     ul 
@@ -39,6 +45,7 @@
         color: white;
         padding-left: 10px;
         padding-right: 10px;
+        font-family: 'Source Sans Pro', sans-serif;
     }
 
     ul>li>a:not(.ac)
@@ -65,10 +72,17 @@
 
 .presentation {
     align-items: center;
-    .contenair-image
+    .panier-legume
     {
-        max-width: 500px;
-        max-height: 300px;
+        text-align: center;
+        width:300px;
+        height: 200px;
+        .panier-legume
+        {
+            width:100px;
+            height: 100px;
+        }
+
     }
 
     .text-presentation
@@ -79,7 +93,17 @@
     }
     h3 
     {
+        
         font-size: 30px;
+        text-align: center;
+        border: outset 5px #99C104;; 
+        color: #f28926;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    p 
+    {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 20px;
     }
 }
 
@@ -88,16 +112,104 @@
 
 .A-H
 {
-    .graine-AH
-    {
     
-    }
-    .img-legume
+    h3 
     {
-        height: 200px;
-        width: auto;
+        text-align: center;
+        border: outset 5px #99C104;; 
+        color: #f28926;
+        font-size: 30px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .graine1,
+        {
+        h4 
+        {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        div
+        {
+            border: #294101 dotted 2px;
+            padding: 2px;
+            margin: 3px;
+        }
+        .img-legume
+        {
+            height: 150px;
+            width: auto;
+            text-align: center;
+            }
 
     }
+        .graine2
+        {
+        h4 
+        {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        div
+        {
+            border: #294101 dotted 2px;
+            padding: 2px;
+            margin: 3px;
+        }
+        .img-legume
+        {
+            height: 150px;
+            width: auto;
+            text-align: center;
+        }
+        }
+
+        p 
+        {
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-size: 10px;
+        }
 }
 
 
+/* FOOTER */
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F48A05;
+    h1 
+    {
+        font-size: 20px;
+        color:#C20312;
+        font-weight: bold;
+    }
+
+    ul 
+    {
+                list-style: none;
+    }
+
+    ul>li>a
+    {
+        text-transform: uppercase;
+        text-decoration:none;
+        color: #294101;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    ul>li>a
+    {
+        border-left: solid #294101 1px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: bold;
+    }
+
+ul>li>a:hover
+    {
+        color: #6E8F01;
+    }
+}
